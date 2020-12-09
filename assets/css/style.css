@@ -1,0 +1,375 @@
+body {
+    font-family: 'Epilogue', sans-serif;
+    height: 100%;
+}
+
+#logo-contaa {
+    width: 150px;
+}
+
+.navbar {
+    background: #ffffff;
+}
+
+.navbar-toggler {
+    background-color: #3398DC!important;
+}
+
+.mr-navbar-item {
+    margin-right: 1rem !important;
+    font-weight: 100;
+    font-size: 15px;
+    white-space: nowrap;
+    color: #000;
+    text-align: left;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: #000!important;
+}
+
+.nav-link:hover {
+    color: #3398DC!important;
+}
+
+.section-video {
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 1800px;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    background-size: cover;
+}
+
+.ppm {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.vep {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.color-title-default {
+    color: #3398DC;
+}
+
+#empresa {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0.1em;
+}
+
+#sobre {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.img-contador {
+    width: 80%;
+    left: 1197px;
+    top: 250px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.4);
+}
+
+#btn-vpp {
+    background: #3398DC;
+}
+
+.color-primary {
+    color: #3398DC;
+}
+
+
+/* ESTAMOS PREPARADOS O QUE VOCE PRECISA */
+
+#ep-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    /* or 100% */
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.img-oqp {
+    width: 80%;
+}
+
+.oqp-desc {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.icons {
+    width: 55px;
+}
+
+.ep-title2 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.ep-decs {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-justify: auto;
+}
+
+.logo-parc {
+    width: 150px;
+    height: auto;
+}
+
+.logo-parc1 {
+    width: 150px;
+    height: 75px;
+    align-items: center;
+}
+
+#container-footer {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Img/bg-rodape\ 1.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+    width: auto;
+    background-repeat: no-repeat;
+}
+
+.title-footer {
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFF;
+}
+
+.title2-footer {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFF;
+}
+
+.desc-footer {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFF;
+}
+
+.roda-f {
+    background-color: black;
+}
+
+.sub-title-planos {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.barra-card {
+    height: 5px;
+    left: 393px;
+    top: 611px;
+    background: #3398DC;
+}
+
+.title-card {
+    font-size: 35px;
+}
+
+.card-title {
+    text-align: right;
+}
+
+.preco {
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    color: #3398DC;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.preco1 {
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    color: #3398DC;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.r {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.mes {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+}
+
+.p-0 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #3398DC;
+}
+
+.text-check {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.section_separator {
+    margin-bottom: 25px;
+}
+
+@media (max-width: 628px) {
+    .preco {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 628px) {
+    .p-0 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 628px) {
+    .preco1 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 628px) {
+    .text-check {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 628px) {
+    .title-card1 {
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 640px) {
+    .title-footer {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 640px) {
+    .title2-footer {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .title-footer {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .title2-footer {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 640px) {
+    .vep {
+        font-size: 30px;
+        line-height: 50px;
+    }
+}
+
+@media (min-width: 400px) {
+    .h2 {
+        font-size: 30px !important;
+    }
+}
+@media (max-width: 400px) {
+    #container-header {
+        padding: 10px !important;
+    }
+}
+
+/* @media (min-width: 1185px) {
+    .navbar-expand-lg {
+        -ms-flex-flow: row nowrap !important;
+        flex-flow: row nowrap !important;
+        -ms-flex-pack: start !important;
+        justify-content: flex-start !important;
+    }
+} */
+
+@import url("//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css");
