@@ -1,7 +1,7 @@
 function sendEmail() {
     try {
         const name = document.getElementById('name').value;
-        const name = document.getElementById('sobrenome').value;
+        const sobrenome = document.getElementById('sobrenome').value;
         const email = document.getElementById('email').value;
 
         const Body = document.getElementById('message').value;
@@ -11,10 +11,10 @@ function sendEmail() {
             alert('Preencha todos os campos!')
         } else {
             Email.send({
-                SecureToken: " 4e14064e-1f73-44a4-8e87-f7b356f360a2",
+                SecureToken: "07dda9a1-ea3a-494d-800b-7e137a266a33",
                 To: emailPrimary,
                 From: emailPrimary,
-                Subject,
+                Subject: "Contato do Site",
                 Body: 'Cliente: ' + name + ' | E-mail:  ' + email + ' - ' + Body
             }).then(
                 message => {
