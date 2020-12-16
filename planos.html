@@ -174,34 +174,34 @@
 
     </section>
 
-    <footer>
+    <div class="section_separator" id="footer"></div>
+    <footer id="footer">
         <div class="container-fluid" id="container-footer">
             <div class="row">
-
                 <div class="col-lg-6 p-5">
                     <form style="background-color: #FFFFFF;" class="p-4  rounded shadow-lg  ">
                         <div class="form-group mt-3">
                             <label for="exampleFormControlInput1">Nome</label>
-                            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="nome">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Endereço de email</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="sobrenome">
+                            <input type="name" id="name" class="form-control" placeholder="nome">
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlInput1">Sobrename</label>
-                            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                            <input type="name" id="sobrenome" class="form-control" placeholder="sobrenome">
                         </div>
                         <div class="form-group">
+                            <label for="exampleFormControlInput1">Endereço de email</label>
+                            <input type="email" name="email" id="email" class="form-control" placeholder="nome@exemplo.com">
+                        </div>
+
+                        <div class="form-group">
                             <label for="exampleFormControlInput1">telefone</label>
-                            <input type="fone" class="form-control" id="exampleFormControlInput1" placeholder="telefone">
+                            <input type="fone" id="fone" class="form-control" placeholder="telefone">
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1">Comentário</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <textarea class="form-control" name="message" id="message" rows="3"></textarea>
                         </div>
-                        <button type="button" class="btn btn-primary mt-5 btn-block" id="btn-vpp">ENVIAR</button>
-
+                        <button type="button" class="btn btn-primary mt-5 btn-block" onclick="sendEmail()" id="btn-vpp">ENVIAR</button>
                     </form>
                 </div>
                 <div class="col-lg-6">
@@ -213,44 +213,32 @@
                     </p>
                     <p class="desc-footer p-3"><span class="fa fa-whatsapp mr-2 " style='font-size:28px'></span>+55 (48) 99902-7501
                     </p>
-                    <a class="btn btn-primary mt-3 mb-3 mr-3" href="https://wa.me/5548999027501" role="button"><span
-                            class="fa fa-whatsapp mr-2 " style='font-size:28px'></span> FALE CONOSCO </a>
-                    <a class="btn btn-primary mt-3 mb-3" href="tel:5548999027501" target="_blank" role="button"> <span class="fa fa-phone mr-2 " style='font-size:28px'></span>LIGUE AGORA </a>
+                    <a class="btn btn-primary mt-3 mb-3 mr-3" href="https://wa.me/5548999027501" target="_blank" role="button"><span class="fa fa-whatsapp mr-2" style='font-size:28px'></span> FALE CONOSCO </a>
+                    <a class="btn btn-primary mt-3 mb-3" href="tel:5548999027501" role="button"> <span class="fa fa-phone mr-2 " style='font-size:28px'></span>LIGUE AGORA </a>
                 </div>
-
             </div>
-
 
         </div>
         <div class="container-fluid col-lg-12 roda-f text-center ">
             <label class="text-white mt-5 p-4 ">© 2020 All rights reserved.</label>
         </div>
-
     </footer>
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TTXJHNGJRP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        gtag('config', 'G-TTXJHNGJRP');
+    </script>
+    <script src="./assets/js/sendEmail.js"></script>
     <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " crossorigin="anonymous "></script>
-
 </body>
 
 </html>
