@@ -48,7 +48,7 @@ body {
     width: auto;
     height: auto;
     z-index: -1000;
-    background-size: cover;
+    
 }
 
 .ppm {
@@ -109,7 +109,6 @@ body {
 .color-primary {
     color: #3398DC;
 }
-
 
 /* ESTAMOS PREPARADOS O QUE VOCE PRECISA */
 
@@ -357,9 +356,24 @@ body {
         font-size: 30px !important;
     }
 }
+
 @media (max-width: 400px) {
     #container-header {
         padding: 10px !important;
+    }
+}
+
+@media (max-width: 770px) {
+    #myVideo {
+      
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        padding-right: 150px;
+        
+
+
     }
 }
 
